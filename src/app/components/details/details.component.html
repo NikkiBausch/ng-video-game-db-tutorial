@@ -19,8 +19,21 @@
                     <mwl-gauge
                     class="two"
                     [max]="100"
+                    [dialStartAngle]="180"
+                    [dialEndAngle]="0"
+                    [value]="gameRating"
+                    [animated]="true"
+                    [color]="getColor"
+                    [animationDuration]= "2"
                     >
                 </mwl-gauge>
+                <a 
+                class="game-gauge-label"
+                target="_blank"
+                href=""
+                >Metacritic </a>
+
+
 
                 </div>
             </div>
